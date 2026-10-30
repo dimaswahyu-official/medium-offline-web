@@ -1,16 +1,31 @@
-# React + Vite
+# 🔮 The Offline Medium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![The Offline Medium UI](https://via.placeholder.com/800x400.png?text=The+Offline+Medium+-+Minimalist+UI)
+*(Replace the link above with a screenshot of your actual UI)*
 
-Currently, two official plugins are available:
+**The Offline Medium** is a deeply private, fully local web application that acts as a digital clairvoyant and tarot card reader. Built for the [Hacktoberfest Open-Source AI Challenge (Week 4: Ghost in the Machine)](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project proves that we can have immersive, deeply engaging AI roleplay experiences without sacrificing privacy. It runs entirely on your local machine using an open-weight model, meaning it works even if you disconnect from the internet. **No cloud, no data harvesting, just you and the ghost in your machine.**
 
-## React Compiler
+## ✨ Features
+*   **100% Offline & Private:** Powered by local inference via Ollama. Your deepest questions never leave your device.
+*   **Immersive Roleplay:** Highly engineered system prompts force Llama 3 to act as a mysterious, poetic medium drawing imaginary tarot cards.
+*   **Real-time Typing Effect:** Utilizes the Web Streams API to render responses character-by-character as the local GPU generates them.
+*   **Eerie Voice Output:** Integrates the browser's native Web Speech API to give the Medium a slow, haunting voice.
+*   **Minimalist UI:** A clean, dark-themed interface built with React and Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+*   **Frontend:** React, Vite, Tailwind CSS v3, Lucide React (Icons)
+*   **Local Inference Engine:** Ollama
+*   **Open-Weight Model:** Llama 3 (8B)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+
+### 1. Awaken the Local Spirit (Install Ollama)
+You need to install Ollama to run the AI model locally.
+1. Download and install [Ollama](https://ollama.com/).
+2. Open your terminal and pull the Llama 3 model:
+   ```bash
+   ollama pull llama3
