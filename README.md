@@ -1,6 +1,6 @@
 # 🔮 The Offline Medium
 
-![The Offline Medium UI](https://via.placeholder.com/800x400.png?text=The+Offline+Medium+-+Minimalist+UI)
+![The Offline Medium UI](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxox012t6obpulnxkaolk.png)
 *(Replace the link above with a screenshot of your actual UI)*
 
 **The Offline Medium** is a deeply private, fully local web application that acts as a digital clairvoyant and tarot card reader. Built for the [Hacktoberfest Open-Source AI Challenge (Week 4: Ghost in the Machine)](https://dev.to/challenges/hacktoberfest-week4-2026-10-26).
